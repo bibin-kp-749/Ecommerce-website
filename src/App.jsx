@@ -9,6 +9,8 @@ import NavLink from './components/NavLink'
 import Navbar from './components/Navbar'
 import RegistrationForm from './components/RegistrationForm'
 import HomePage from './pages/HomePage'
+import LoginPage from './pages/LoginPage'
+import RegisterPage from './pages/RegisterPage'
 
 function App() {
 
@@ -23,6 +25,8 @@ function App() {
       {/* <HomePage/> */}
       {/* <Hero/> */}
       {/* <Cards/> */}
+      {/* <RegisterPage/> */}
+      <LoginPage/>
     </>
   )
 }

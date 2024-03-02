@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/component.css'
 
 const RegistrationForm = () => {
+  
   return (
     <div className='bg-white'>
  <label className="input input-bordered reg-input flex items-center gap-2 mb-4 bg-white rounded-sm border-red-800 ">

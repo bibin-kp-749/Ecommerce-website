@@ -28,3 +28,21 @@ body{
     left: 4rem;
     bottom: 10rem;
 }
+#regipage{
+    width: 100%;
+}
+.regipage-section{
+    width: 90vw;
+}
+.regi-form{
+    width: 50%;
+}
+.regi-img{
+    width: 50%;
+    height: 75%;
+    margin-top: 1.2rem;
+    background-image: url('../assets/RegisterImage/reg-img.jpg');
+    background-size: contain;
+    box-shadow: 1px 1px 20px rgb(192, 198, 192);
+    border-radius: 10px;
+}
