@@ -26,7 +26,7 @@ function App() {
       {/* <Hero/> */}
       {/* <Cards/> */}
       {/* <RegisterPage/> */}
-      <LoginPage/>
+      {/* <LoginPage/> */}
     </>
   )
 }

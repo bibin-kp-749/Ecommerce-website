@@ -46,3 +46,7 @@ body{
     box-shadow: 1px 1px 20px rgb(192, 198, 192);
     border-radius: 10px;
 }
+.login-btn:hover{
+   background-color: white;
+   color: #ff323c;;
+}
