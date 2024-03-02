@@ -1,0 +1,30 @@
+.reg-input{
+    min-width: 20rem;
+    min-height: 3.2rem;
+    color: #ff323c;
+}
+body{
+    background:white;
+}
+.register-btn{
+    height: 3rem;
+}
+#navbar-section{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 4rem;
+}
+.header-section{
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.carousel{
+    height: 100vh;
+}
+.home-text{
+    left: 4rem;
+    bottom: 10rem;
+}
