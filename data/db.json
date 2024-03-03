@@ -1,18 +1,347 @@
 {
   "person": [
     {
-      "id": 1709401081860,
+      "id": "1709401081860",
       "username": "bibin",
       "email": "bibinkp@gmail.com",
       "password": "55555"
     },
     {
-      "id": 1709401104104,
+      "id": "1709401104104",
       "username": "",
       "phone": "656565",
       "email": "",
       "password": ""
     }
   ],
-  "products": []
+  "products": [
+    {
+      "id": "0001",
+      "category": "offers",
+      "type": "table",
+      "caption": "Tampa Center Table",
+      "price": 1490,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/10413.jpg"
+    },
+    {
+      "id": "0002",
+      "category": "offers",
+      "type": "shoe Rack",
+      "caption": "Tampa Shoe Rack",
+      "price": 2790,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/10473.jpg"
+    },
+    {
+      "id": "0003",
+      "category": "offers",
+      "type": "Chair",
+      "caption": "Namen Visitor Chair - Blue",
+      "price": 2990,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/2906.jpg"
+    },
+    {
+      "id": "0004",
+      "category": "offers",
+      "type": "table",
+      "caption": "Tampa Writing Table",
+      "price": 4090,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/10414.jpg"
+    },
+    {
+      "id": "0005",
+      "category": "offers",
+      "type": "table",
+      "caption": "Staffer BedsideTable",
+      "price": 4290,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/9210.jpg"
+    },
+    {
+      "id": "0006",
+      "category": "offers",
+      "type": "table",
+      "caption": "Tampa Study Table",
+      "price": 4390,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/10412.jpg"
+    },
+    {
+      "id": "0007",
+      "category": "offers",
+      "type": "dinig",
+      "caption": "Vision 4 Seater Dining Table set",
+      "price": 18900,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/10469.jpg"
+    },
+    {
+      "id": "0008",
+      "category": "offers",
+      "type": "mattress",
+      "caption": "Ricky Hydraulic Queen Size Bed",
+      "price": 25900,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/9781.jpg"
+    },
+    {
+      "id": "0009",
+      "category": "offers",
+      "type": "Sofa",
+      "caption": "Nevin 3 Seater Chaise Sofa",
+      "price": 29900,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/11024.jpg"
+    },
+    {
+      "id": "0010",
+      "category": "offers",
+      "type": "wardrobe",
+      "caption": "Staffer 3 Door Wardrobe",
+      "price": 36950,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/7203.jpg"
+    },
+    {
+      "id": "0011",
+      "category": "living",
+      "type": "table",
+      "caption": "Tampa Center Table",
+      "price": 1490,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/10413.jpg"
+    },
+    {
+      "id": "0012",
+      "category": "living",
+      "type": "shoe Rack",
+      "caption": "Tampa Shoe Rack",
+      "price": 2790,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/10473.jpg"
+    },
+    {
+      "id": "0014",
+      "category": "living",
+      "type": "shoe Rack",
+      "caption": "Dynamo Shoe Rack - I",
+      "price": 3190,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/9420.jpg"
+    },
+    {
+      "id": "0013",
+      "category": "living",
+      "type": "Rack",
+      "caption": "Raffle Audio and Video Rack",
+      "price": 3190,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/1683.jpg"
+    },
+    {
+      "id": "0016",
+      "category": "living",
+      "type": "table",
+      "caption": "Willox Center Table",
+      "price": 5090,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/9310.jpg"
+    },
+    {
+      "id": "0015",
+      "category": "living",
+      "type": "table",
+      "caption": "Pivot Center Table",
+      "price": 4190,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/10436.jpg"
+    },
+    {
+      "id": "0016",
+      "category": "dining set",
+      "type": "dinig",
+      "caption": "Hop Dining Cabinet",
+      "price": 14900,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/9937.jpg"
+    },
+    {
+      "id": "0017",
+      "category": "dining set",
+      "type": "dinig",
+      "caption": "Coster Dining Cabinet",
+      "price": 19800,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/8518.jpg"
+    },
+    {
+      "id": "0018",
+      "category": "dining set",
+      "type": "dinig",
+      "caption": "Benson Dining Cabinet",
+      "price": 21700,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/8519.jpg"
+    },
+    {
+      "id": "0019",
+      "category": "dining set",
+      "type": "dinig",
+      "caption": "Brisbane 6 Seater Dining Set",
+      "price": 41000,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/brisbanedark.jpg"
+    },
+    {
+      "id": "0020",
+      "category": "dining set",
+      "type": "dinig",
+      "caption": "Genie Dining Cabinet",
+      "price": 33900,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/9133.jpg"
+    },
+    {
+      "id": "0021",
+      "category": "bedrooms",
+      "type": "table",
+      "caption": "Keegan BedsideTable",
+      "price": 4590,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/6180.jpg"
+    },
+    {
+      "id": "0022",
+      "category": "bedrooms",
+      "type": "table",
+      "caption": "Mercury Dressing Table",
+      "price": 5290,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/6180.jpg"
+    },
+    {
+      "id": "0023",
+      "category": "bedrooms",
+      "type": "mattress",
+      "caption": "Olivia King Size bed",
+      "price": 22900,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/9979.jpg"
+    },
+    {
+      "id": "0024",
+      "category": "bedrooms",
+      "type": "mattress",
+      "caption": "Mercury Hydraulic Queen Size Storage Bed",
+      "price": 15700,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/5737.jpg"
+    },
+    {
+      "id": "0025",
+      "category": "bedrooms",
+      "type": "wardrobe",
+      "caption": "Olivia 3 Door Wardrobe",
+      "price": 29700,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/9540.jpg"
+    },
+    {
+      "id": "0026",
+      "category": "bedrooms",
+      "type": "wardrobe",
+      "caption": "Atto 3 Door Wardrobe",
+      "price": 12090,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/5657.jpg"
+    },
+    {
+      "id": "0027",
+      "category": "office",
+      "type": "table",
+      "caption": "Aero Computer Table",
+      "price": 3900,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/9231.jpg"
+    },
+    {
+      "id": "0028",
+      "category": "office",
+      "type": "table",
+      "caption": "Intelli Study Table",
+      "price": 4690,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/6228.jpg"
+    },
+    {
+      "id": "0029",
+      "category": "office",
+      "type": "table",
+      "caption": "Tampa Writing Table",
+      "price": 4090,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/10414.jpg"
+    },
+    {
+      "id": "0030",
+      "category": "office",
+      "type": "chair",
+      "caption": "Bevy Executive Chair - Maroon",
+      "price": 3690,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/2898.jpg"
+    },
+    {
+      "id": "0031",
+      "category": "office",
+      "type": "chair",
+      "caption": "Trivia Visitor Chair - Black",
+      "price": 4390,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/2902.jpg"
+    },
+    {
+      "id": "0032",
+      "category": "office",
+      "type": "chair",
+      "caption": "Victor Visitor Chair - Black",
+      "price": 5190,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/2911.jpg"
+    },
+    {
+      "id": "0033",
+      "category": "collection",
+      "type": "sofa",
+      "caption": "MIDLAND SOFA COLLECTION",
+      "price": 102190,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/midland_nz01_collection_jpeg.jpg"
+    },
+    {
+      "id": "0034",
+      "category": "collection",
+      "type": "sofa",
+      "caption": "ZENICA SOFA COLLECTION",
+      "price": 100000,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/zenica_nad001_collection_jpeg.jpg"
+    },
+    {
+      "id": "0035",
+      "category": "collection",
+      "type": "sofa",
+      "caption": "LISBON SOFA COLLECTION",
+      "price": 150000,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/lisbon_nz01_collection_jpeg.jpg"
+    },
+    {
+      "id": "0036",
+      "category": "collection",
+      "type": "mattress",
+      "caption": "STAFFER COLLECTION",
+      "price": 130000,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/decor_1650969140885.jpg"
+    },
+    {
+      "id": "0037",
+      "category": "collection",
+      "type": "mattress",
+      "caption": "ANJELA COLLECTION",
+      "price": 170000,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/angela_bedroom_collection_jpeg.jpg"
+    },
+    {
+      "id": "0038",
+      "category": "collection",
+      "type": "table",
+      "caption": "KWT 075 Collection",
+      "price": 120000,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/kwt_075_collection_jpeg.jpg"
+    },
+    {
+      "id": "0039",
+      "category": "collection",
+      "type": "sofa",
+      "caption": "CASPER COLLECTION",
+      "price": 125000,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/casper_nae01_collection_jpeg.jpg"
+    },
+    {
+      "id": "0040",
+      "category": "collection",
+      "type": "sofa",
+      "caption": "LEON COLLECTION",
+      "price": 155000,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/leon_nz03_collection_jpeg.jpg"
+    }
+  ]
 }

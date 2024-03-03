@@ -50,3 +50,9 @@ body{
    background-color: white;
    color: #ff323c;;
 }
+.product-nav{
+    z-index: 5;
+}
+.products-item{
+    z-index: -1;
+}

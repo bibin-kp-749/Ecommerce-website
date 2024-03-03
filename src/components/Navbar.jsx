@@ -1,7 +1,10 @@
 import React from 'react'
 import '../css/component.css'
+import LoginPage from '../pages/LoginPage'
+import { useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
+    const navigate=useNavigate()
     return (
         <div id='navbar-section p-0'>
             <div className="navbar  flex bg-red-800 text-white">
@@ -28,6 +31,19 @@ const Navbar = () => {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div>
+<button className="bg-slate-100 h-8 pb-3 pl-3 pr-3 pt-1  font-medium text-gray-700 rounded-lg m-3" onClick={()=>document.getElementById('my_modal_3').showModal()}>Login</button>
+<dialog id="my_modal_3" className="modal">
+  <div className="modal-box">
+    <form method="dialog">
+      <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+      <LoginPage/>
+    </form>
+    <h3 className="font-bold text-lg">Hello!</h3>
+    <p className="py-4">Press ESC key or click on ✕ button to close</p>
+  </div>
+</dialog>
                     </div>
                     <div className="dropdown flex-1 dropdown-end">
                         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">

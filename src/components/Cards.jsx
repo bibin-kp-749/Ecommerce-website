@@ -1,15 +1,20 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const Cards = () => {
+const Cards = ({value}) => {
+    // console.log(value.caption);
+    // console.log(value.url);
     return (
         <div>
-            <div className="card w-80 glass p-0">
-                <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!" /></figure>
+            <div className="card w-80 glass p-0 m-5">
+                <figure><img src={value.url} alt="Furniture Image" className='text-black' /></figure>
                 <div className="card-body">
-                    <h2 className="card-title">Life hack</h2>
-                    <p>How to park your car at your garage?</p>
+                    <p className='text-black'>{value.caption}</p>
+                    <p className='text-black'>PRICE : ₹{value.price}</p>
+                    {/* <p className='text-white'>{value.category}</p> */}
+                    <br />
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Learn now!</button>
+                        <button className="btn bg-red-800 text-white">ADD TO CART</button>
                     </div>
                 </div>
             </div>
