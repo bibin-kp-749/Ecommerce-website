@@ -4,20 +4,18 @@ import Carousel from '../components/Carousel'
 import BottomNavbar from '../components/BottomNavbar'
 import Cards from '../components/Cards'
 import CarouselSelect from '../components/CarouselSelect'
+import Subsection from '../components/Subsection'
 
 const HomePage = () => {
   return (
-    <div>
-        <p className='home-text text-black text-4xl fixed font-semibold'>Hello Guyzz</p>
-      <Header/>
+    <div className='flex flex-col justify-center align-middle mb-5'>
       <Carousel/>
       <div>
-        <h1>Our collections</h1>
+        <br />
+        <h1 className='text-3xl font-semibold'>Our collections</h1>
       </div>
       <BottomNavbar/>
-      {/* <div className='flex'>
-        <Cards/>
-      </div> */}
+      <Subsection/>
       <CarouselSelect/>
     </div>
   )

@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import axios from 'axios'
 import  { useEffect ,useState} from 'react'
 import { useNavigate } from 'react-router-dom'
+import { Cartvalue } from '../Common/Mycontext'
 
 const LoginForm = () => {
+  const {setLogin,login}=useContext(Cartvalue)
   const navigate=useNavigate()
   const[email,setEmail]=useState('')
     const[password,setPassword]=useState('')
@@ -11,16 +13,19 @@ const LoginForm = () => {
     useEffect(()=>{
         axios.get('http://localhost:8000/person')
         .then(res=>{
-        //   console.log(res.data);
           setData(res.data);
         })
     },[])
+    let count=0;
     const submit=()=>{
-        let count=0;
           data.filter(element=>{
             if(element.email==email&&element.password==password){
-                console.log(element.email,email);
+                // console.log(element.email,email);
                 count=1;
+                setLogin(element)
+                // console.log(login);
+                localStorage.setItem('id',element.id);
+                localStorage.setItem('name',element.username)
             }
           });
           (count==1)?window.alert("Login successfully"):window.alert("email and password doesn't match");
@@ -38,7 +43,7 @@ const LoginForm = () => {
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4 opacity-70"><path fillRule="evenodd" d="M14 6a4 4 0 0 1-4.899 3.899l-1.955 1.955a.5.5 0 0 1-.353.146H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2.293a.5.5 0 0 1 .146-.353l3.955-3.955A4 4 0 1 1 14 6Zm-4-2a.75.75 0 0 0 0 1.5.5.5 0 0 1 .5.5.75.75 0 0 0 1.5 0 2 2 0 0 0-2-2Z" clipRule="evenodd" /></svg>
   <input type="password" className="grow"  placeholder='Password' value={password}   onChange={e=>{
     setPassword(e.target.value)
-    console.log(password);
+    // console.log(password);
   }}/>
 </label>
 <div className='flex justify-between'>

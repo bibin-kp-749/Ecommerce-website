@@ -9,17 +9,14 @@ import { Link } from 'react-router-dom'
 
 const Products = () => {
   const location = useLocation();
-  const from = location.state?.from;;
-  console.log(from);
+  const from = location.state?.from;
   const [value,setValue]=useState([])
   useEffect(()=>{
    axios.get('http://localhost:8000/products').then(res=>setValue(res.data))
   },[])
-  // console.log(value);
   return (
     <>
-      <div className='product-nav'><Header/></div>
-      <div className='products-item flex flex-wrap justify-center justify-evenly '>
+      <div className='products-item flex flex-wrap justify-center justify-evenly mt-24' id='products-item '>
         {value&&
           value.map(e=>{
             if(from==e.category){

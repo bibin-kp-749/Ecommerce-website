@@ -1,9 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const Cards = ({value}) => {
-    // console.log(value.caption);
-    // console.log(value.url);
     return (
         <div>
             <div className="card w-80 glass p-0 m-5">
@@ -14,7 +11,7 @@ const Cards = ({value}) => {
                     {/* <p className='text-white'>{value.category}</p> */}
                     <br />
                     <div className="card-actions justify-end">
-                        <button className="btn bg-red-800 text-white">ADD TO CART</button>
+                        <button className="btn bg-red-800 text-white" >ADD TO CART</button>
                     </div>
                 </div>
             </div>

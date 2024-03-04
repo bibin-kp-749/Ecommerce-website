@@ -4,15 +4,10 @@
       "id": "1709401081860",
       "username": "bibin",
       "email": "bibinkp@gmail.com",
-      "password": "55555"
-    },
-    {
-      "id": "1709401104104",
-      "username": "",
-      "phone": "656565",
-      "email": "",
-      "password": ""
+      "password": "55555",
+      "cart":[]
     }
+    
   ],
   "products": [
     {
