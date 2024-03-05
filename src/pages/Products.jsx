@@ -16,12 +16,12 @@ const Products = () => {
   },[])
   return (
     <>
-      <div className='products-item flex flex-wrap justify-center justify-evenly mt-24' id='products-item '>
+      <div className='products-item flex flex-wrap justify-center justify-evenly 'style={{marginTop:'10rem'}} id='products-item '>
         {value&&
-          value.map(e=>{
+          value.map((e,i)=>{
             if(from==e.category){
             return (
-              <Link to={`${e.id}`}><Cards value={e}/></Link>)
+              <Link key={i} to={`${e.id}`}><Cards value={e}/></Link>)
             }
           })
         }

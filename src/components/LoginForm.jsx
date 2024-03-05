@@ -20,10 +20,8 @@ const LoginForm = () => {
     const submit=()=>{
           data.filter(element=>{
             if(element.email==email&&element.password==password){
-                // console.log(element.email,email);
                 count=1;
                 setLogin(element)
-                // console.log(login);
                 localStorage.setItem('id',element.id);
                 localStorage.setItem('name',element.username)
             }

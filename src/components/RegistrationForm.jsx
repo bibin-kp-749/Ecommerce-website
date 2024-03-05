@@ -1,8 +1,10 @@
 import React ,{useState}from 'react'
 import axios from 'axios'
 import '../css/component.css'
+import { useNavigate } from 'react-router-dom'
 
 const RegistrationForm = () => {
+  const navigate=useNavigate()
   const[username,setUsername]=useState('');
   const[email,setEmail]=useState('');
   const[phone,setPhone]=useState('');
@@ -13,8 +15,10 @@ const RegistrationForm = () => {
       setPassword("");
        axios.post('http://localhost:8000/person',{id:Date.now(),username,phone,email,password})
       .then(res=>{
-          console.log(res.data);
+          window.alert("account created login with e-mail&password")
       })
+      navigate('/')
+
   }
   return (
     <div className='bg-white'>

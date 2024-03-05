@@ -5,13 +5,11 @@ const LoginPage = () => {
     return (
         <div>
             <div id='regipage ' className='flex justify-center flex-col'>
-                <div className='mb-10 text-black'>
-                    <h1>Login</h1>
+                <div className='mb-10 text-black flex justify-center'>
+                    <h1 className='text-2xl font-semibold text-red-800'>Login</h1>
                 </div>
                 <div className='flex justify-center'>
-                    <div className="regi-form min-h-32 card ">
                         <LoginForm />
-                    </div>
                 </div>
             </div>
         </div>

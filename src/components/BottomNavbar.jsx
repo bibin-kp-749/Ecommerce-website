@@ -20,7 +20,7 @@ const BottomNavbar = () => {
   </Link>
   </button>
   <button className='bg-gray-50 rounded-sm  items-center '>
-  <Link to="/" state={{from:"bedrooms"}} className='flex flex-col justify-center'>
+  <Link to="/" state={{from:"mattress"}} className='flex flex-col justify-center'>
   <img src="https://damroimages.blob.core.windows.net/damroimages/03.jpg" className='w-15 h-11' alt="" />
   <p className='text-lg font-medium'>mattress</p>
   </Link>

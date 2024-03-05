@@ -5,9 +5,105 @@
       "username": "bibin",
       "email": "bibinkp@gmail.com",
       "password": "55555",
-      "cart":[]
+      "cart": []
+    },
+    {
+      "id": 1709616093364,
+      "username": "salman",
+      "phone": "555555",
+      "email": "salman@gmail.com",
+      "password": "11111"
+    },
+    {
+      "id": 1709616095447,
+      "username": "",
+      "phone": "555555",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": 1709616330218,
+      "username": "sona ",
+      "phone": "14112003",
+      "email": "sona@gmail.com",
+      "password": "14112003"
+    },
+    {
+      "id": 1709616435406,
+      "username": "bb",
+      "phone": "555555",
+      "email": "salman@gmail.com",
+      "password": "nnnnn"
     }
-    
+  ],
+  "cart": [
+    {
+      "id": "0011",
+      "userid": "1709401081860",
+      "category": "living",
+      "type": "table",
+      "caption": "Tampa Center Table",
+      "price": 1490,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/10413.jpg"
+    },
+    {
+      "id": "0017",
+      "userid": "1709401081860",
+      "category": "dining set",
+      "type": "dinig",
+      "caption": "Coster Dining Cabinet",
+      "price": 19800,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/8518.jpg"
+    },
+    {
+      "id": "0028",
+      "userid": "1709401081860",
+      "category": "office",
+      "type": "table",
+      "caption": "Intelli Study Table",
+      "price": 4690,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/6228.jpg"
+    },
+    {
+      "id": "0034",
+      "userid": "1709616330218",
+      "quantity": 4,
+      "category": "collection",
+      "type": "sofa",
+      "caption": "ZENICA SOFA COLLECTION",
+      "price": 100000,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/zenica_nad001_collection_jpeg.jpg"
+    },
+    {
+      "id": "0021",
+      "userid": "1709616330218",
+      "quantity": 1,
+      "category": "bedrooms",
+      "type": "table",
+      "caption": "Keegan BedsideTable",
+      "price": 4590,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/6180.jpg"
+    },
+    {
+      "id": "0016",
+      "userid": "1709616330218",
+      "quantity": 1,
+      "category": "dining set",
+      "type": "dinig",
+      "caption": "Hop Dining Cabinet",
+      "price": 14900,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/9937.jpg"
+    },
+    {
+      "id": "0012",
+      "userid": "1709616330218",
+      "quantity": 1,
+      "category": "living",
+      "type": "shoe Rack",
+      "caption": "Tampa Shoe Rack",
+      "price": 2790,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/10473.jpg"
+    }
   ],
   "products": [
     {

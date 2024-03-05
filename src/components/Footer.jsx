@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className=''>
+    <div style={{marginTop:'2vh'}}>
       <footer className="footer footer-center p-10 bg-red-800 text-base-content rounded  bottom-0 mt-24">
   <nav className="grid grid-flow-col gap-4">
     <a className="link link-hover">About us</a>
