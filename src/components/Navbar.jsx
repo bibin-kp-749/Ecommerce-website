@@ -11,20 +11,22 @@ const Navbar = () => {
     const navigate = useNavigate()
     return (
         <div id='navbar-section p-0'>
-            <div className="navbar  flex bg-red-800 text-white">
-                <div className="flex-1" >
+            <div className="navbar  flex bg-red-800 text-white ">
+                <div className="w-20 mr-9 sm:mr-52 md:mr-96 lg:w-96" >
                     <a className="btn btn-ghost text-xl" >FurPro</a>
                 </div>
-                <div className="flex-1 gap-2 flex">
-                    <div className="form-control flex-1">
+                <div className=" gap-2 flex">
+                    <div className="form-control flex min-w-36 columns-2 flex-row bg-gray-200 rounded-md xl:ml-28">
+                        <div>
                         <input type="text" placeholder="Search" onChange={e => {
                             setSearch(e.target.value)
-                        }} className="input bg-gray-200 text-black input-bordered w-30 h-10 md:w-auto" />
+                        }} className="input bg-gray-200 text-black input-bordered w-28 h-10 md:w-auto border-none sm:w-44 md:w-60 lg:w-80" />
+                        </div>
+                        <div className='bg-gray-200 text-black flex justify-center items-center w-8 rounded-md'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4 opacity-70" onClick={() => navigate('search')}><path fillRule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clipRule="evenodd" /></svg>
                         
                     </div>
-                    <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4 opacity-70" onClick={() => navigate('search')}><path fillRule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clipRule="evenodd" /></svg>
                     </div>
-                    <div className="dropdown dropdown-end flex-.1">
+                    <div className="dropdown dropdown-end ml-1">
                         <Link to='cart'>
                             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
                                 <div className="indicator">
@@ -34,7 +36,7 @@ const Navbar = () => {
                             </div>
                         </Link>
                     </div>
-                    <div className="dropdown flex-.1 dropdown-end">
+                    <div className="dropdown pr-15 dropdown-end">
                         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
                             <div className="w-10 rounded-full">
                                 <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=""  className='w-1 h-1'/>

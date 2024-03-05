@@ -38,63 +38,6 @@
   ],
   "cart": [
     {
-      "id": "0011",
-      "userid": "1709401081860",
-      "category": "living",
-      "type": "table",
-      "caption": "Tampa Center Table",
-      "price": 1490,
-      "url": "https://damroimages.blob.core.windows.net/damroimages/10413.jpg"
-    },
-    {
-      "id": "0017",
-      "userid": "1709401081860",
-      "category": "dining set",
-      "type": "dinig",
-      "caption": "Coster Dining Cabinet",
-      "price": 19800,
-      "url": "https://damroimages.blob.core.windows.net/damroimages/8518.jpg"
-    },
-    {
-      "id": "0028",
-      "userid": "1709401081860",
-      "category": "office",
-      "type": "table",
-      "caption": "Intelli Study Table",
-      "price": 4690,
-      "url": "https://damroimages.blob.core.windows.net/damroimages/6228.jpg"
-    },
-    {
-      "id": "0034",
-      "userid": "1709616330218",
-      "quantity": 4,
-      "category": "collection",
-      "type": "sofa",
-      "caption": "ZENICA SOFA COLLECTION",
-      "price": 100000,
-      "url": "https://damroimages.blob.core.windows.net/damroimages/zenica_nad001_collection_jpeg.jpg"
-    },
-    {
-      "id": "0021",
-      "userid": "1709616330218",
-      "quantity": 1,
-      "category": "bedrooms",
-      "type": "table",
-      "caption": "Keegan BedsideTable",
-      "price": 4590,
-      "url": "https://damroimages.blob.core.windows.net/damroimages/6180.jpg"
-    },
-    {
-      "id": "0016",
-      "userid": "1709616330218",
-      "quantity": 1,
-      "category": "dining set",
-      "type": "dinig",
-      "caption": "Hop Dining Cabinet",
-      "price": 14900,
-      "url": "https://damroimages.blob.core.windows.net/damroimages/9937.jpg"
-    },
-    {
       "id": "0012",
       "userid": "1709616330218",
       "quantity": 1,
@@ -103,6 +46,26 @@
       "caption": "Tampa Shoe Rack",
       "price": 2790,
       "url": "https://damroimages.blob.core.windows.net/damroimages/10473.jpg"
+    },
+    {
+      "id": "0035",
+      "userid": "1709616330218",
+      "quantity": 1,
+      "category": "collection",
+      "type": "sofa",
+      "caption": "LISBON SOFA COLLECTION",
+      "price": 150000,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/lisbon_nz01_collection_jpeg.jpg"
+    },
+    {
+      "id": "0029",
+      "userid": "1709616330218",
+      "quantity": 5,
+      "category": "office",
+      "type": "table",
+      "caption": "Tampa Writing Table",
+      "price": 4090,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/10414.jpg"
     }
   ],
   "products": [

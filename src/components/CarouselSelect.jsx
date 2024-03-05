@@ -3,7 +3,7 @@ import React from 'react'
 const CarouselSelect = () => {
   return (
     <div>
-      <div className="carousel rounded-box">
+      <div className="carousel rounded-box h-96 ">
   <div className="carousel-item">
     <img src="https://damroimages.blob.core.windows.net/damroimages/Sofa.jpg" alt="Burger" />
   </div> 

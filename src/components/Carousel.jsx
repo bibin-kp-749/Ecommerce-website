@@ -4,8 +4,8 @@ import '../css/component.css'
 const Carousel = () => {
   return (
     <div>
-      <div className="carousel w-full">
-        <div id="item1" className="carousel-item w-full">
+      <div className="carousel w-full h-72 mt-28 sm:h-auto ">
+        <div id="item1" className="carousel-item w-full sm:h-auto">
           <img src="../../src/assets/Carousel_Images/courselimage1.jpg" className="w-full" />
         </div>
         <div id="item2" className="carousel-item w-full">
