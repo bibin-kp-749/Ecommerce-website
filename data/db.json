@@ -1,39 +1,26 @@
 {
   "person": [
     {
+      "id": "0001",
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin12345",
+      "status": false
+    },
+    {
       "id": "1709401081860",
       "username": "bibin",
       "email": "bibinkp@gmail.com",
       "password": "55555",
-      "cart": []
+      "status": true
     },
     {
-      "id": 1709616093364,
-      "username": "salman",
-      "phone": "555555",
-      "email": "salman@gmail.com",
-      "password": "11111"
-    },
-    {
-      "id": 1709616095447,
-      "username": "",
-      "phone": "555555",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": 1709616330218,
+      "id": "1709616330218",
       "username": "sona ",
       "phone": "14112003",
       "email": "sona@gmail.com",
-      "password": "14112003"
-    },
-    {
-      "id": 1709616435406,
-      "username": "bb",
-      "phone": "555555",
-      "email": "salman@gmail.com",
-      "password": "nnnnn"
+      "password": "14112003",
+      "status": false
     }
   ],
   "cart": [
@@ -66,6 +53,31 @@
       "caption": "Tampa Writing Table",
       "price": 4090,
       "url": "https://damroimages.blob.core.windows.net/damroimages/10414.jpg"
+    },
+    {
+      "id": "b170",
+      "userid": "1709616330218",
+      "quantity": 0
+    },
+    {
+      "id": "0028",
+      "userid": "1709616330218",
+      "quantity": 1,
+      "category": "office",
+      "type": "table",
+      "caption": "Intelli Study Table",
+      "price": 4690,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/6228.jpg"
+    },
+    {
+      "id": "0021",
+      "userid": "1709401081860",
+      "quantity": 1,
+      "category": "bedrooms",
+      "type": "table",
+      "caption": "Keegan BedsideTable",
+      "price": 4590,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/6180.jpg"
     }
   ],
   "products": [

@@ -13,7 +13,7 @@ const RegistrationForm = () => {
       setUsername("");
       setEmail("");
       setPassword("");
-       axios.post('http://localhost:8000/person',{id:Date.now(),username,phone,email,password})
+       axios.post('http://localhost:8000/person',{id:Date.now(),username,phone,email,password,status:true})
       .then(res=>{
           window.alert("account created login with e-mail&password")
       })

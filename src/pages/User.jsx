@@ -10,6 +10,7 @@ import CartPage from './CartPage'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Search from './Search'
+import Admin from './Admin'
 
 
 const User = () => {
@@ -22,7 +23,7 @@ const User = () => {
             <Header/>
       <Routes>
         <Route path='/' element={<HomePage/>}/>
-        <Route path='products' element={<Products/>}></Route>
+        <Route path='products' element={<Products/>}/>
         <Route path='products/:id' element={<Hero/>}/>
         <Route path='login' element={<LoginPage/>}/>
         <Route path='register' element={<RegisterPage/>}/>
