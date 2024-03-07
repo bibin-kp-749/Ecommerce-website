@@ -2,8 +2,8 @@ import React from 'react'
 
 const Cards = ({value}) => {
     return (
-        <div>
-            <div className="card w-80 glass p-0 m-5">
+        <div >
+            <div className="card  w-72 glass p-0 m-5">
                 <figure><img src={value.url} alt="Furniture Image" className='text-black' /></figure>
                 <div className="card-body">
                     <p className='text-black'>{value.caption}</p>

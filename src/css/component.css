@@ -61,8 +61,8 @@ body{
     margin-top: 5rem;
 }
 .purchase-btn{
-    min-width: 50vw;
-    min-height: 10vh;
+    min-width: 40vw;
+    min-height: 7vh;
     border-radius: 10px;
     font-size: x-large;
     font-weight: 800;

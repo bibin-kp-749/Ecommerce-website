@@ -22,13 +22,13 @@ const CartPage = () => {
             )
     },[])
     return (
-        <div style={{marginTop:'10rem'}}>{
+        <div className='mt-48 flex flex-col items-center'>{
            carts.map((e,i) => {
                 if(e.userid==userid){
                 return (
-                    <div key={i} className="card  flex  self-center  card-side bg-gray-100 max-w-4xl shadow-xl ml-24">
-                        <figure><img className='h-24' style={{minHeight:"15rem",minWidth:"15rem"}} src={e.url} alt="Movie" /></figure>
-                        <div className="card-body">
+                    <div key={i} className="card  flex  self-center  rounded-none card-side bg-gray-100 justify-center flex-wrap mt-5 sm:w-5/6">
+                        <figure><img className='h-24 w-80 h-60 rounded-md sm:min-h-64 sm:min-h-96' src={e.url} alt="Movie" /></figure>
+                        <div className="card-body ">
                             <div><h2 className='text-2xl font-bold text-gray-800'>{e.type}</h2>
                             <p className='text-gray-600 text-lg '>{e.caption}</p></div> 
                             <div>
@@ -37,7 +37,7 @@ const CartPage = () => {
                             </div>
                             <div className="card-actions justify-end">
                                 <button className="btn bg-red-800 text-white" onClick={()=>{
-                                    axios.delete(`http://localhost:8000/cart/${e.id}`).then(res=>navigate('/'))
+                                    axios.delete(`http://localhost:8000/cart/${e.id}`).then(res=>window.location.reload())
                                 }}>DELETE</button>
                             </div>
                         </div>
@@ -46,8 +46,8 @@ const CartPage = () => {
             }
             console.log(price);
             })}
-            <div style={{marginTop:'6rem',marginBottom:'1rem'}} ><p className='text-black font-medium'>TOTAL PRICE : ₹{totalprice}</p></div>
-            <button className="purchase-btn bg-red-800">Purchace</button>
+            <div className='my-12'><p className='text-black font-medium'>TOTAL PRICE : ₹{totalprice}</p></div>
+            <button className="purchase-btn bg-red-800 max-w-72 min-h-14">Purchace</button>
         </div>
 
     )
