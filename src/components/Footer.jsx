@@ -1,8 +1,9 @@
 import React from 'react'
 
 const Footer = () => {
+  const id=localStorage.getItem('id')
   return (
-    <div style={{marginTop:'2vh'}}>
+    <div style={{marginTop:'2vh'}} className={`${(id=='0001')?'hidden':''}`}>
       <footer className="footer footer-center p-10 bg-red-800 text-base-content rounded  bottom-0 mt-24">
   <nav className="grid grid-flow-col gap-4">
     <a className="link link-hover">About us</a>

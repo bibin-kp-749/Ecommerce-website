@@ -27,7 +27,7 @@ const Table = () => {
         }catch(error){
             console.log(error);
         }
-    }
+        window.location.reload()    }
     console.log(users);
   return (
     <div>
@@ -67,14 +67,11 @@ const Table = () => {
                 <td>
                     <p>{e.phone}</p>
                 </td>
-                {/* <td>
-                  <p>Carts</p>
-                </td> */}
                 <td>
                     <button className='btn' onClick={()=>Delete(e.id)}>Delete</button>
                 </td>
                 <td>
-                    <button className='btn' onClick={()=>Block(e.id,e.status)}>Block</button>
+                    <button className='btn' onClick={()=>Block(e.id,e.status)}>{(e.status==true)?"Block":"UnBlock"}</button>
                 </td>
               </tr>
   )

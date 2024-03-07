@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import Header from '../components/Header'
-import Cards from '../components/Cards'
+import Header from './Header'
+import Cards from './Cards'
 import axios from 'axios'
 import '../css/component.css'
 import { useParams } from 'react-router-dom'

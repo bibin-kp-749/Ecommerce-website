@@ -5,7 +5,7 @@
       "username": "admin",
       "email": "admin@gmail.com",
       "password": "admin12345",
-      "status": false
+      "status": true
     },
     {
       "id": "1709401081860",
@@ -20,20 +20,10 @@
       "phone": "14112003",
       "email": "sona@gmail.com",
       "password": "14112003",
-      "status": false
+      "status": true
     }
   ],
   "cart": [
-    {
-      "id": "0012",
-      "userid": "1709616330218",
-      "quantity": 1,
-      "category": "living",
-      "type": "shoe Rack",
-      "caption": "Tampa Shoe Rack",
-      "price": 2790,
-      "url": "https://damroimages.blob.core.windows.net/damroimages/10473.jpg"
-    },
     {
       "id": "0035",
       "userid": "1709616330218",
@@ -45,31 +35,6 @@
       "url": "https://damroimages.blob.core.windows.net/damroimages/lisbon_nz01_collection_jpeg.jpg"
     },
     {
-      "id": "0029",
-      "userid": "1709616330218",
-      "quantity": 5,
-      "category": "office",
-      "type": "table",
-      "caption": "Tampa Writing Table",
-      "price": 4090,
-      "url": "https://damroimages.blob.core.windows.net/damroimages/10414.jpg"
-    },
-    {
-      "id": "b170",
-      "userid": "1709616330218",
-      "quantity": 0
-    },
-    {
-      "id": "0028",
-      "userid": "1709616330218",
-      "quantity": 1,
-      "category": "office",
-      "type": "table",
-      "caption": "Intelli Study Table",
-      "price": 4690,
-      "url": "https://damroimages.blob.core.windows.net/damroimages/6228.jpg"
-    },
-    {
       "id": "0021",
       "userid": "1709401081860",
       "quantity": 1,
@@ -78,6 +43,26 @@
       "caption": "Keegan BedsideTable",
       "price": 4590,
       "url": "https://damroimages.blob.core.windows.net/damroimages/6180.jpg"
+    },
+    {
+      "id": "0037",
+      "userid": "0001",
+      "quantity": 1,
+      "category": "collection",
+      "type": "mattress",
+      "caption": "ANJELA COLLECTION",
+      "price": 170000,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/angela_bedroom_collection_jpeg.jpg"
+    },
+    {
+      "id": "0023",
+      "userid": "0001",
+      "quantity": 1,
+      "category": "bedrooms",
+      "type": "mattress",
+      "caption": "Olivia King Size bed",
+      "price": 22900,
+      "url": "https://damroimages.blob.core.windows.net/damroimages/9979.jpg"
     }
   ],
   "products": [
@@ -85,8 +70,9 @@
       "id": "0001",
       "category": "offers",
       "type": "table",
+      "name": "heloo",
       "caption": "Tampa Center Table",
-      "price": 1490,
+      "price": "1500",
       "url": "https://damroimages.blob.core.windows.net/damroimages/10413.jpg"
     },
     {
@@ -408,6 +394,21 @@
       "caption": "LEON COLLECTION",
       "price": 155000,
       "url": "https://damroimages.blob.core.windows.net/damroimages/leon_nz03_collection_jpeg.jpg"
+    },
+    {
+      "id": "f926",
+      "category": "",
+      "type": "",
+      "name": "",
+      "caption": ""
+    },
+    {
+      "id": "deda",
+      "category": "offers",
+      "type": "table",
+      "caption": "Tampa Center Table",
+      "price": "1500",
+      "url": "https://damroimages.blob.core.windows.net/damroimages/10413.jpg"
     }
   ]
 }

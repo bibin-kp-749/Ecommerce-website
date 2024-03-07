@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom'
 import '../../src/index.css'
 
 const NavLink = () => {
+  const id=localStorage.getItem('id')
   return (
-    <div className=' min-w-96 '>
+    <div className={` min-w-96 ${(id=='0001')?'hidden':''}`}>
       <ul className='no-scrollbar flex justify-evenly bg-slate-300 text-red-800 h-10 align-middle overflow-scroll '>
         <li className='flex items-center font-sans min-w-32'>
           <Link to="/products" state={{from:"offers"}}>Offers</Link>

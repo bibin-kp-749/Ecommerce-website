@@ -11,6 +11,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Search from './Search'
 import Admin from './Admin'
+import AddProduct from '../components/AddProduct'
 
 
 const User = () => {
@@ -30,6 +31,9 @@ const User = () => {
         <Route path='/:id' element={<Hero/>}/>
         <Route path='cart' element={<CartPage/>}/>
         <Route path='search' element={<Search/>}/>
+        <Route path='admin' element={<Admin/>}/>
+        <Route path='admin/addproduct' element={<AddProduct/>}/>
+        {/* <Route path='admin/:id' element={<AddProduct/>}/> */}
       </Routes>
       <Footer/>
       </Cartvalue.Provider>

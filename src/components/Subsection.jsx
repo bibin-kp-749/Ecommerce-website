@@ -16,7 +16,7 @@ const Subsection = () => {
       {value&&
           value.map(e=>{
             if(e.type===from){  
-            return <Link to={`${e.id}`}><Cards value={e}/></Link>
+            return <Link to={`products/${e.id}`}><Cards value={e}/></Link>
             }
           })
         }
