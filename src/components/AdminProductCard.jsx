@@ -23,15 +23,15 @@ const AdminProductCard = () => {
   //   }
   // }
   return (
-    <>
-      <div className='mb-12'>
-        <ul className='flex justify-between h-10 bg-white items-center'>
-          <li className='flex-1' onClick={() => setCategory("offers")}>Offers</li>
-          <li className='flex-1' onClick={() => setCategory("living")}>Living</li>
-          <li className='flex-1' onClick={() => setCategory("bedrooms")}>Bedrooms</li>
-          <li className='flex-1' onClick={() => setCategory("dining set")}>Dining Sets</li>
-          <li className='flex-1' onClick={() => setCategory("office")}>Study and Office Furniture</li>
-          <li className='flex-1' onClick={() => setCategory("collection")}>Collections</li>
+    <div className='w-80 sm:w-full '>
+      <div className='mb-12 overflow-auto no-scrollbar sm:mr-5' >
+        <ul className='no-scrollbar flex w-fit sm:w-full  justify-evenly bg-slate-300 text-red-800 h-10 align-middle overflow-scroll'>
+          <li className='min-w-32' onClick={() => setCategory("offers")}>Offers</li>
+          <li className='min-w-32' onClick={() => setCategory("living")}>Living</li>
+          <li className='min-w-32' onClick={() => setCategory("bedrooms")}>Bedrooms</li>
+          <li className='min-w-32' onClick={() => setCategory("dining set")}>Dining Sets</li>
+          <li className='min-w-48' onClick={() => setCategory("office")}>Study and Office Furniture</li>
+          <li className='min-w-32' onClick={() => setCategory("collection")}>Collections</li>
         </ul>
       </div>
       {
@@ -75,7 +75,7 @@ const AdminProductCard = () => {
           }
         })
       }
-    </>
+    </div>
   )
 }
 
