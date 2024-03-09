@@ -23,9 +23,9 @@ const AdminProductCard = () => {
   //   }
   // }
   return (
-    <div className='w-80 sm:w-full '>
+    <div className='w-80 sm:w-full mt-10'>
       <div className='mb-12 overflow-auto no-scrollbar sm:mr-5' >
-        <ul className='no-scrollbar flex w-fit sm:w-full  justify-evenly bg-slate-300 text-red-800 h-10 align-middle overflow-scroll'>
+        <ul className='no-scrollbar flex w-fit sm:w-full  justify-evenly  text-gray-800 bg-gray-200 items-center h-10 align-middle overflow-scroll rounded-lg'>
           <li className='min-w-32' onClick={() => setCategory("offers")}>Offers</li>
           <li className='min-w-32' onClick={() => setCategory("living")}>Living</li>
           <li className='min-w-32' onClick={() => setCategory("bedrooms")}>Bedrooms</li>
@@ -40,7 +40,7 @@ const AdminProductCard = () => {
           if (category == "all") {
             return (
               <div key={i} className='mb-8 flex justify-center md:4/6'>
-                <div className="card card-side bg-base-100 shadow-xl flex flex-wrap p-0 rounded-md sm:w-5/6 md:2/6">
+                <div className="card card-side bg-gray-200 shadow-xl flex flex-wrap p-0 rounded-md sm:w-5/6 md:2/6">
                   <figure className='max-w-full'><img src={e.url} alt="Movie" className='w-full rounded-md sm:w-60 md:w-full md:h-72' /></figure>
                   <div className="card-body sm:flex-1 md:flex-1">
                     <h2 className="card-title">{e.name}</h2>
@@ -56,7 +56,7 @@ const AdminProductCard = () => {
           } else if (e.category == category) {
             return (
               <div key={i} className='mb-8 flex justify-center md:4/6'>
-                <div className="card card-side bg-base-100 shadow-xl flex flex-wrap p-0 rounded-md sm:w-5/6 md:2/6">
+                <div className="card card-side bg-gray-200 shadow-xl flex flex-wrap p-0 rounded-md sm:w-5/6 md:2/6">
                   <figure className='max-w-full'><img src={e.url} alt="Movie" className='w-full rounded-md sm:w-60 md:w-full md:h-72' /></figure>
                   <div className="card-body sm:flex-1 md:flex-1">
                     <h2 className="card-title">{e.name}</h2>

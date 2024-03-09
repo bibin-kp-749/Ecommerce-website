@@ -11,8 +11,9 @@ const HomePage = () => {
     <div className='flex flex-col justify-center align-middle mb-5'>
       <Carousel/>
       <div>
-        <br />
+        <br /><br />
         <h1 className='text-3xl font-semibold'>Our collections</h1>
+        <br /><br />
       </div>
       <BottomNavbar/>
       <Subsection/>

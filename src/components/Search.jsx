@@ -11,7 +11,7 @@ const Search = () => {
         axios.get('http://localhost:8000/products').then(res => setValue(res.data))
     }, [])
     return (
-        <div className='flex flex-wrap justify-center justify-evenly mt-24'>
+        <div className='flex flex-wrap justify-evenly mt-24'>
             {
                 values && values.map((e, i) => {
                     if (e.caption.toLowerCase().includes(search.toLowerCase())) {
@@ -23,7 +23,7 @@ const Search = () => {
                                     <p className='text-black'>PRICE : ₹{e.price}</p>
                                     <br />
                                     <div className="card-actions justify-end">
-                                        <button className="btn bg-red-800 text-white" onClick={() => navigate(`/${e.id}`)}>view more</button>
+                                        <button className="  text-gray-600" onClick={() => navigate(`/products/${e.id}`)}>view more</button>
                                     </div>
                                 </div>
                             </div>

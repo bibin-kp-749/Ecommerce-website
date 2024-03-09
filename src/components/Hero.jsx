@@ -46,8 +46,8 @@ const Hero = () => {
   }
   return (
     <div >
-      <div className="hero  min-h-screen flex justify-center">
-        <div className="hero-content  flex-col lg:flex-row border-1 border-solid border-black rounded-md">
+      <div className="hero flex justify-center">
+        <div className="hero-content flex-col lg:flex-row border-1 border-solid border-black rounded-md">
           <img src={value.url} className="hero-img w-80 rounded-lg shadow-2xl sm:w-8/12 sm:min-h-80" />
           <div className='sm:w-6/12'>
             <h1 className="text-2xl font-semibold text-gray-800">{value.caption}</h1>

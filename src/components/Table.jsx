@@ -34,7 +34,7 @@ const Table = () => {
     <div className='sm:w-full w-full' >
       <div className='no-scrollbar overflow-auto '>
         <table className="table">
-          <thead>
+          <thead className='font-semibold text-gray-800 text-md'>
             <tr>
               <th>
               </th>
@@ -68,8 +68,8 @@ const Table = () => {
                       <p>{e.phone}</p>
                     </td>
                     <td className='flex justify-end'>
-                      <button className='btn m-2' onClick={() => Delete(e.id)}>Delete</button>
-                      <button className='btn m-2' onClick={() => Block(e.id, e.status)}>{(e.status == true) ? "Block" : "UnBlock"}</button>
+                      <button className='login-btn w-24 font-medium h-10 m-2 text-gray-900' onClick={() => Delete(e.id)}>Delete</button>
+                      <button className='login-btn w-24 h-10 m-2 font-medium text-gray-900' onClick={() => Block(e.id, e.status)}>{(e.status == true) ? "Block" : "UnBlock"}</button>
                     </td>
                   </tr>
                 )

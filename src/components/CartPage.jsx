@@ -27,8 +27,8 @@ const CartPage = () => {
            carts.map((e,i) => {
                 if(e.userid==userid){
                 return (
-                    <div key={i} className="card  flex  self-center  rounded-none card-side bg-gray-100 justify-center flex-wrap mt-5 sm:w-5/6">
-                        <figure><img className='h-24 w-80 h-60 rounded-md sm:min-h-64 sm:min-h-96' src={e.url} alt="Movie" /></figure>
+                    <div key={i} className="card  flex  self-center  card-side bg-gray-100 rounded-sm justify-center flex-wrap mt-5 sm:w-5/6">
+                        <figure><img className=' w-80 h-56 rounded-md sm:min-h-64 ' src={e.url} alt="Movie" /></figure>
                         <div className="card-body ">
                             <div><h2 className='text-2xl font-bold text-gray-800'>{e.type}</h2>
                             <p className='text-gray-600 text-lg '>{e.caption}</p></div> 

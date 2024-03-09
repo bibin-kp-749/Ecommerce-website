@@ -63,9 +63,12 @@ body{
     box-shadow: 1px 1px 20px rgb(192, 198, 192);
     border-radius: 10px;
 }
+.login-btn {
+    background-color: #7795a1;
+    border-radius: 6px;
+}
 .login-btn:hover{
-   background-color: white;
-   color: #ff323c;;
+   background-color: #395b69;
 }
 .product-nav{
     z-index: 5;
@@ -102,3 +105,21 @@ body{
     background-color: #7795a1           ;
     color: rgb(18, 18, 18);
 }
+.loginsvg,.login-heading{
+    color:#38606e ;
+}
+.bottom-btn:hover{
+    transform: scale(1.04,1.04);
+    transition: 1s transform ease-in-out;
+    box-shadow: 0px 12px  20px rgb(210, 210, 210);
+}
+.admin{
+    background-color: #7795a1;
+}
+[aria-label] {
+    font-weight: 600;
+    font-size: large;
+    }
+.addproduct-svg{
+    color: #2b5869;
+}    

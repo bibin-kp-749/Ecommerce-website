@@ -8,13 +8,6 @@
       "status": true
     },
     {
-      "id": "1709401081860",
-      "username": "bibin",
-      "email": "bibinkp@gmail.com",
-      "password": "55555",
-      "status": true
-    },
-    {
       "id": "1709616330218",
       "username": "sona ",
       "phone": "14112003",
@@ -76,15 +69,6 @@
     }
   ],
   "products": [
-    {
-      "id": "0001",
-      "category": "offers",
-      "type": "table",
-      "name": "heloo",
-      "caption": "Tampa Center Table",
-      "price": "1500",
-      "url": "https://damroimages.blob.core.windows.net/damroimages/10413.jpg"
-    },
     {
       "id": "0002",
       "category": "offers",
@@ -246,14 +230,6 @@
       "url": "https://damroimages.blob.core.windows.net/damroimages/9133.jpg"
     },
     {
-      "id": "0021",
-      "category": "bedrooms",
-      "type": "table",
-      "caption": "Keegan BedsideTable",
-      "price": 4590,
-      "url": "https://damroimages.blob.core.windows.net/damroimages/6180.jpg"
-    },
-    {
       "id": "0022",
       "category": "bedrooms",
       "type": "table",
@@ -396,29 +372,6 @@
       "caption": "CASPER COLLECTION",
       "price": 125000,
       "url": "https://damroimages.blob.core.windows.net/damroimages/casper_nae01_collection_jpeg.jpg"
-    },
-    {
-      "id": "0040",
-      "category": "collection",
-      "type": "sofa",
-      "caption": "LEON COLLECTION",
-      "price": 155000,
-      "url": "https://damroimages.blob.core.windows.net/damroimages/leon_nz03_collection_jpeg.jpg"
-    },
-    {
-      "id": "f926",
-      "category": "",
-      "type": "",
-      "name": "",
-      "caption": ""
-    },
-    {
-      "id": "deda",
-      "category": "offers",
-      "type": "table",
-      "caption": "Tampa Center Table",
-      "price": "1500",
-      "url": "https://damroimages.blob.core.windows.net/damroimages/10413.jpg"
     }
   ]
 }
