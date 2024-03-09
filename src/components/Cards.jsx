@@ -1,9 +1,10 @@
 import React from 'react'
+import '../css/component.css'
 
 const Cards = ({value}) => {
     return (
         <div >
-            <div className="card  w-72 glass p-0 m-5">
+            <div className="card  w-72 glass p-0 m-5 ">
                 <figure><img src={value.url} alt="Furniture Image" className='text-black' /></figure>
                 <div className="card-body">
                     <p className='text-black'>{value.caption}</p>
@@ -11,7 +12,7 @@ const Cards = ({value}) => {
                     {/* <p className='text-white'>{value.category}</p> */}
                     <br />
                     <div className="card-actions justify-end">
-                        <button className="btn bg-red-800 text-white" >ADD TO CART</button>
+                        <button className="text-gray-400" >View More... </button>
                     </div>
                 </div>
             </div>

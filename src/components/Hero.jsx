@@ -3,6 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { useState, useEffect, useContext } from 'react'
 import axios from 'axios'
 import '../css/component.css'
+import '../App.css'
 import { Cartvalue } from '../Common/Mycontext';
 
 const Hero = () => {
@@ -45,14 +46,14 @@ const Hero = () => {
   }
   return (
     <div >
-      <div className="hero bg-white min-h-screen flex justify-center">
+      <div className="hero  min-h-screen flex justify-center">
         <div className="hero-content  flex-col lg:flex-row border-1 border-solid border-black rounded-md">
           <img src={value.url} className="hero-img w-80 rounded-lg shadow-2xl sm:w-8/12 sm:min-h-80" />
           <div className='sm:w-6/12'>
             <h1 className="text-2xl font-semibold text-gray-800">{value.caption}</h1>
             <div >&nbsp;<button className='text-4xl font-bold text-gray-700 h-6 w-6 pr-3' onClick={()=>setQuantity(pre=>pre-1)}>-</button>&nbsp;&nbsp;<span className='text-xl font-bold text-gray-400'>{quantity}</span> &nbsp;&nbsp;<button className='text-3xl font-bold text-gray-700 h-6 w-6 pr-3' onClick={()=>setQuantity(pre=>pre+1)}>&nbsp;+</button></div>
             <p className="py-6 text-gray-800">₹ {quantity*value.price}</p>
-            <button className="btn bg-red-800 text-white" onClick={handle}>Add To Cart</button>
+            <button className="bg addtocart font-medium p-2 rounded-lg" onClick={handle}>Add to Cart</button>
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@ const Subsection = () => {
    axios.get('http://localhost:8000/products').then(res=>setValue(res.data))
   },[])
   return (
-    <div className='flex flex-wrap'>
+    <div className='flex flex-wrap justify-center justify-evenly m-14'>
       {value&&
           value.map(e=>{
             if(e.type===from){  

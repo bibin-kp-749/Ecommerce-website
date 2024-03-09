@@ -4,6 +4,7 @@ import LoginPage from '../pages/LoginPage'
 import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import { Cartvalue } from '../Common/Mycontext'
+import '../App.css'
 
 const Navbar = () => {
     const { setSearch } = useContext(Cartvalue);
@@ -13,7 +14,7 @@ const Navbar = () => {
     const id = localStorage.getItem('id')
     return (
         <div id='navbar-section p-0' className={`${(id == '0001') ? 'hidden' : ''}`}>
-            <div className="navbar  flex bg-red-800 text-white ">
+            <div className="navbar  flex bg ">
                 <div className="w-20 mr-9 sm:mr-52 md:mr-96 lg:w-96" >
                     <a className="btn btn-ghost text-xl" >FurPro</a>
                 </div>
@@ -28,7 +29,7 @@ const Navbar = () => {
 
                         </div>
                     </div>
-                    <div className="dropdown dropdown-end ml-1">
+                    <div className="dropdown dropdown-end ml-1 md:ml-7">
                         <Link to='cart'>
                             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
                                 <div className="indicator">
@@ -38,7 +39,7 @@ const Navbar = () => {
                             </div>
                         </Link>
                     </div>
-                    <div className="dropdown pr-15 dropdown-end">
+                    <div className="dropdown pr-15 dropdown-end sm:ml-8">
                         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
                             <div className="w-10 rounded-full">
                                 <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="" className='w-1 h-1' />
@@ -48,15 +49,15 @@ const Navbar = () => {
                         <div>
                             <p className='text-white font-medium'>{name}</p>
                         </div>
-                        <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52 bg-gray-200">
+                        <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content  rounded-box w-52 bg-gray-200">
                             <li>
-                                <a className="justify-between text-red-800">
+                                <a className="justify-between ">
                                     Profile
                                     <span className="badge">New</span>
                                 </a>
                             </li>
                             <li><div>
-                                <a className="w-24 h-2 flex items-center   font-medium text-red-800 rounded-lg mb-1 mt-3" onClick={id ? () => {
+                                <a className="w-24 h-2 flex items-center   font-medium  rounded-lg mb-1 mt-3" onClick={id ? () => {
                                     localStorage.removeItem('name');
                                     localStorage.removeItem('id');
                                     navigate('/');

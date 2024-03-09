@@ -18,7 +18,9 @@
   padding: 0;
   min-width: 100%;
 }
-
+.navlink{
+  background-color: #abbcc3d6;
+}
 
 
 body {
@@ -28,6 +30,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  background-color: rgb(244, 244, 244);
   min-height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;

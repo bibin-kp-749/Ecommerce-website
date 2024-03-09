@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios'
+import '../css/component.css'
 
 const CartPage = () => {
     const navigate=useNavigate()
@@ -36,7 +37,7 @@ const CartPage = () => {
                                 <p className='text-xl font-bold text-gray-400'>PRICE - ₹{e.quantity*e.price} </p>
                             </div>
                             <div className="card-actions justify-end">
-                                <button className="btn bg-red-800 text-white" onClick={()=>{
+                                <button className="btn cartbtn " onClick={()=>{
                                     axios.delete(`http://localhost:8000/cart/${e.id}`).then(res=>window.location.reload())
                                 }}>DELETE</button>
                             </div>
@@ -47,7 +48,7 @@ const CartPage = () => {
             console.log(price);
             })}
             <div className='my-12'><p className='text-black font-medium'>TOTAL PRICE : ₹{totalprice}</p></div>
-            <button className="purchase-btn bg-red-800 max-w-72 min-h-14">Purchace</button>
+            <button className="purchase-btn cartbtn max-w-72 min-h-14">Purchace</button>
         </div>
 
     )
