@@ -11,7 +11,8 @@ const AdminProductCard = () => {
   const Delete = async (id) => {
     try {
       axios.delete(`http://localhost:8000/products/${id}`)
-      console.log("deleted successsfully");
+      alert("deleted successsfully");
+      window.location.reload()
     } catch (err) { console.log(err) }
   }
   // const Edit = (id) => {
@@ -25,13 +26,13 @@ const AdminProductCard = () => {
   return (
     <div className='w-80 sm:w-full mt-10'>
       <div className='mb-12 overflow-auto no-scrollbar sm:mr-5' >
-        <ul className='no-scrollbar flex w-fit sm:w-full  justify-evenly  text-gray-800 bg-gray-200 items-center h-10 align-middle overflow-scroll rounded-lg'>
-          <li className='min-w-32' onClick={() => setCategory("offers")}>Offers</li>
-          <li className='min-w-32' onClick={() => setCategory("living")}>Living</li>
-          <li className='min-w-32' onClick={() => setCategory("bedrooms")}>Bedrooms</li>
-          <li className='min-w-32' onClick={() => setCategory("dining set")}>Dining Sets</li>
-          <li className='min-w-48' onClick={() => setCategory("office")}>Study and Office Furniture</li>
-          <li className='min-w-32' onClick={() => setCategory("collection")}>Collections</li>
+        <ul className='no-scrollbar flex w-fit sm:w-full  justify-evenly  text-gray-800 bg-gray-200 items-center h-10 align-middle overflow-scroll rounded-lg cursor-pointer'>
+          <li className='min-w-32 hover:font-semibold' onClick={() => setCategory("offers")}>Offers</li>
+          <li className='min-w-32 hover:font-semibold' onClick={() => setCategory("living")}>Living</li>
+          <li className='min-w-32 hover:font-semibold' onClick={() => setCategory("bedrooms")}>Bedrooms</li>
+          <li className='min-w-32 hover:font-semibold' onClick={() => setCategory("dining set")}>Dining Sets</li>
+          <li className='min-w-48 hover:font-semibold' onClick={() => setCategory("office")}>Study and Office Furniture</li>
+          <li className='min-w-32 hover:font-semibold' onClick={() => setCategory("collection")}>Collections</li>
         </ul>
       </div>
       {

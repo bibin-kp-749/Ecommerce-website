@@ -47,6 +47,7 @@ const Table = () => {
           <tbody>
             {
               users && users.map(e => {
+                if(e.email!="admin@gmail.com"&&e.email!="admin12345"){
                 return (
                   <tr >
                     <th>
@@ -73,6 +74,7 @@ const Table = () => {
                     </td>
                   </tr>
                 )
+                }
 
               })
             }

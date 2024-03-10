@@ -3,6 +3,9 @@
     min-height: 3.2rem;
     color: black;
 }
+.product-card{
+    height: 80vh;
+}
 body{
     background:white;
 }

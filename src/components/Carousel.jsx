@@ -6,7 +6,7 @@ const Carousel = () => {
     <div>
       <div className="carousel w-full h-72 mt-20 sm:h-lvh flex">
         <div className='absolute  top-64 sm:top-72 md:top-96 left-4 flex flex-col justify-start'>
-        <p className='sm:text-2xl md:ml-3 md:text-3xl font-medium text-gray-900 mb-1.5'>&nbsp;&nbsp;&nbsp;"Revitalize Your Home,&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <p className='sm:text-2xl md:ml-3 md:text-3xl font-medium text-gray-900 mb-1.5 '>&nbsp;&nbsp;&nbsp;"Revitalize Your Home,&nbsp;&nbsp;&nbsp;&nbsp;</p>
                         <p className='sm:text-xl md:text-2xl    font-medium text-gray-900  mb-1.5'>&nbsp;&nbsp;Embrace the Extraordinary,</p>
                         <p className='sm:text-xl md:text-2xl md font-medium text-gray-900 mb-1.5'>Craft Your Dream Space."&nbsp;</p>
         </div>

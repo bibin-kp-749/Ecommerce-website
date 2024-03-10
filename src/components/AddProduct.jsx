@@ -1,9 +1,10 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import '../css/component.css'
 
 const AddProduct = () => {
+  const navigate=useNavigate()
     const[url,setUrl]=useState('')
     const[category,setCategory]=useState('')
     const[caption,setCaption]=useState('')
@@ -39,6 +40,7 @@ const AddProduct = () => {
       try{
         await axios.put(`http://localhost:8000/products/${id}`,{id,category,type,name,caption,price,url})
         alert("updated successfully")
+        navigate(-1)
       }catch(error){
         console.log(error);
       }
